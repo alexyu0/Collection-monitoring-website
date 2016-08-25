@@ -1,0 +1,4 @@
+bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up --verb 0 --mute-replay-warnings
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up --verb 0 --mute-replay-warnings
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up --verb 0 --mute-replay-warnings
+us      direct

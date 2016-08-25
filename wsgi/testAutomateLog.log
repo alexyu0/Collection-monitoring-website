@@ -1,0 +1,492 @@
+ERROR:root:Failed to SSH to kenaz
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 40, in runCollector
+    check_call (runKenaz)
+  File "/usr/lib/python2.7/subprocess.py", line 535, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+TypeError: execv() arg 2 must contain only strings
+ERROR:root:Failed to SSH to kenaz
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 41, in runCollector
+    check_call (runKenaz)
+  File "/usr/lib/python2.7/subprocess.py", line 535, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+TypeError: execv() arg 2 must contain only strings
+ERROR:root:Failed to SSH to kenaz
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 41, in runCollector
+    check_call (runKenaz)
+  File "/usr/lib/python2.7/subprocess.py", line 535, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+TypeError: execv() arg 2 must contain only strings
+ERROR:root:Failed to SSH to kenaz
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 41, in runCollector
+    check_call (runKenaz)
+  File "/usr/lib/python2.7/subprocess.py", line 535, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+TypeError: execv() arg 2 must contain only strings
+ERROR:root:Failed to SSH to kenaz
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 41, in runCollector
+    check_call (runKenaz)
+  File "/usr/lib/python2.7/subprocess.py", line 535, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+TypeError: execv() arg 2 must contain only strings
+INFO:root:Starting collector
+INFO:root:locations_sample.txt
+INFO:root:url_sample_2.txt
+INFO:root:Collection done
+INFO:root:Time to completion: 60.4623229504
+
+INFO:root:Starting collector
+INFO:root:locations_sample.txt
+INFO:root:url_sample_5.txt
+INFO:root:Collection done
+INFO:root:Time to completion: 56.1984360218
+
+INFO:root:Starting collector
+INFO:root:locations_sample.txt
+INFO:root:url_sample_5.txt
+INFO:root:Collection done
+INFO:root:Running on Kenaz
+INFO:root:Time to completion: 53.3787128925
+
+INFO:root:Starting collector
+INFO:root:locations_sample.txt
+INFO:root:url_sample_5.txt
+INFO:root:Collection done
+INFO:root:Running on Kenaz
+INFO:root:Time to completion: 59.3445980549
+
+INFO:root:Starting collector
+INFO:root:locations_sample.txt
+INFO:root:url_sample_5.txt
+INFO:root:Collection done
+INFO:root:Running on Kenaz
+INFO:root:Time to completion: 55.5288450718
+
+INFO:root:Starting collector
+INFO:root:locations_sample.txt
+INFO:root:url_sample_5.txt
+INFO:root:Collection done
+INFO:root:['ssh', 'dbreceiver@kenaz.ece.cmu.edu', 'nohup', 'python', 'tbbscraper/collector/automate-collector/runImportBatch.py', 'cs_automation_test', 'testCaptureResults', 'testAutomateLog', 'INFO', '&']
+INFO:root:Running on Kenaz
+INFO:root:Time to completion: 57.291424036
+
+INFO:root:Time to completion: 64.7346148491
+
+INFO:root:Time to completion: 75.1296410561
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+ERROR:root:Exception running capture
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 25, in runCollector
+    with open (location + ".txt", "r") as f:
+IOError: [Errno 2] No such file or directory: 'locations_sample.txt.txt'
+INFO:root:Time to completion: 0.738208055496
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Time to completion: 68.7518029213
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Time to completion: 62.7046399117
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Time to completion: 85.6675040722
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:/home/tbbscraperentry
+INFO:root:{'LANG': 'C.UTF-8', 'TERMCAP': 'SC|screen|VT 100/ANSI X3.64 virtual terminal:\\\n\t:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:\\\n\t:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:\\\n\t:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:\\\n\t:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:\\\n\t:li#24:co#80:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:\\\n\t:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:\\\n\t:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:\\\n\t:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:\\\n\t:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:\\\n\t:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:\\\n\t:me=\\E[m:ms:\\\n\t:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:\\\n\t:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:\\\n\t:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\\\n\t:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:\\\n\t:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:\\\n\t:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:\\\n\t:F3=\\E[1;2P:F4=\\E[1;2Q:F5=\\E[1;2R:F6=\\E[1;2S:\\\n\t:F7=\\E[15;2~:F8=\\E[17;2~:F9=\\E[18;2~:FA=\\E[19;2~:kb=\x7f:\\\n\t:K2=\\EOE:kB=\\E[Z:kF=\\E[1;2B:kR=\\E[1;2A:*4=\\E[3;2~:\\\n\t:*7=\\E[1;2F:#2=\\E[1;2H:#3=\\E[2;2~:#4=\\E[1;2D:%c=\\E[6;2~:\\\n\t:%e=\\E[5;2~:%i=\\E[1;2C:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:\\\n\t:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:\\\n\t:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:', 'TERM': 'screen', 'SHELL': '/bin/bash', 'SHLVL': '1', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/tbbscraperentry', 'WINDOW': '0', 'PATH': '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin', 'PWD': '/home/tbbscraperentry', 'SSH_CLIENT': '146.115.131.187 49283 22', 'LOGNAME': 'tbbscraperentry', 'USER': 'tbbscraperentry', 'HOME': '/home/tbbscraperentry', 'MAIL': '/var/mail/tbbscraperentry', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'STY': '667869.pts-0.laguz', '_': './collection.sh', 'SSH_CONNECTION': '146.115.131.187 49283 173.255.224.18 22'}
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Time to completion: 81.4585239887
+
+INFO:root:/home/tbbscraperentry
+INFO:root:{'LANG': 'C.UTF-8', 'SHELL': '/bin/sh', 'PWD': '/home/tbbscraperentry', 'LOGNAME': 'tbbscraperentry', 'PATH': '/usr/bin:/bin', 'HOME': '/home/tbbscraperentry'}
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Time to completion: 72.5651011467
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample_5.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+INFO:root:http://1-xxx-tube.com/
+http://10010.com/
+http://173.194.119.14/
+http://173.194.16.175/
+http://173.194.33.183/
+
+INFO:root:Time to completion: 62.1454310417
+
+INFO:root:Running collector
+INFO:root:Location: locations_sample.txt
+INFO:root:URL: url_sample.txt
+INFO:root:Contents of location
+INFO:root:bd      ovpn    hma-ovpn/UDP/Bangladesh.Dhaka.UDP.ovpn --auth-user-pass hma-up
+br      ovpn    hma-ovpn/UDP/Brasil.SaoPaulo.UDP.ovpn --auth-user-pass hma-up
+de      ovpn    hma-ovpn/UDP/Germany.Bavaria.Nuremberg_*.UDP.ovpn --auth-user-pass hma-up
+us      direct
+
+ERROR:root:Exception running capture
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 33, in runCollector
+    with open (url, "r") as f:
+IOError: [Errno 2] No such file or directory: 'url_sample.txt'
+ERROR:root:Exception on remove tree
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 68, in runCollector
+    shutil.rmtree (results_dir);
+  File "/usr/lib/python2.7/shutil.py", line 239, in rmtree
+    onerror(os.listdir, path, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 237, in rmtree
+    names = os.listdir(path)
+OSError: [Errno 2] No such file or directory: 'testCaptureResults'
+INFO:root:Time to completion: 0.465803861618
+
+INFO:root:Running collector
+INFO:root:Time to completion: 2998.74985385
+
+INFO:root:Running collector
+ERROR:root:Exception running capture
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 24, in runCollector
+    logging.info (time.strftime())
+TypeError: strftime() takes at least 1 argument (0 given)
+INFO:root:Time to completion: 1.9427011013
+
+INFO:root:2016-07-07 18:46:06.624651
+INFO:root:Running collector
+INFO:root:2016-07-07 18:49:09.999713
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_2.txt', 'testCaptureResults']
+INFO:root:Running collector
+INFO:root:2016-07-07 19:00:01.348899
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_2.txt', 'testCaptureResults', '-q']
+INFO:root:Running collector
+INFO:root:2016-07-22 15:35:46.285134
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_2.txt', 'testCaptureResults', '-q']
+INFO:root:Running collector
+INFO:root:2016-07-22 15:45:01.546014
+INFO:root:Running collector
+INFO:root:2016-07-22 15:47:46.173570
+INFO:root:Running collector
+INFO:root:2016-07-22 15:49:03.785431
+INFO:root:Running collector
+INFO:root:2016-07-22 15:50:51.916580
+INFO:root:Running collector
+INFO:root:2016-07-22 15:56:08.832092
+INFO:root:Running collector
+INFO:root:2016-07-22 15:58:55.048990
+INFO:root:Running collector
+INFO:root:2016-07-22 16:12:52.809071
+INFO:root:Running collector
+INFO:root:2016-07-22 16:49:20.760012
+INFO:root:Running collector
+INFO:root:2016-07-22 17:08:50.492349
+INFO:root:Running collector
+INFO:root:2016-07-22 17:10:17.869578
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_2.txt', 'testCaptureResults']
+INFO:root:2016-07-22 17:12:25.108200
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+INFO:root:2016-07-22 21:24:48.293795
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+ERROR:root:Exception running capture
+Traceback (most recent call last):
+  File "tbbscraper/collector/automate-collector/automate_laguz.py", line 28, in runCollector
+    check_call (cmd)
+  File "/usr/lib/python2.7/subprocess.py", line 540, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']' returned non-zero exit status 1
+INFO:root:Time to completion: 0.898584127426
+
+INFO:root:2016-07-22 21:25:36.400846
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+INFO:root:2016-07-22 21:29:01.672050
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+INFO:root:2016-07-22 21:31:15.556118
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+INFO:root:2016-07-25 17:59:39.441059
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+INFO:root:2016-07-26 18:55:01.188346
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults']
+INFO:root:Time to completion: 106.782104969
+
+INFO:root:2016-07-26 19:00:01.041328
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_5.txt', 'testCaptureResults', '-q']
+INFO:root:Time to completion: 171.241099119
+
+INFO:root:2016-07-27 00:00:01.427231
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_1000.txt', 'testCaptureResults', '-q']
+INFO:root:Time to completion: 3558.19019198
+
+INFO:root:2016-07-27 12:00:01.184460
+INFO:root:Running collector
+INFO:root:['tbbscraper/collector/automate-collector/../url-source', 'capture', 'locations_sample.txt', 'url_sample_1000.txt', 'testCaptureResults', '-q']
+INFO:root:Time to completion: 2884.4161191
+
+INFO:root:2016-07-28 00:00:01.928834
+INFO:root:Running collector
+INFO:root:Time to completion: 3173.47258306
+
+INFO:root:2016-07-28 12:00:01.849183
+INFO:root:Running collector
+INFO:root:Time to completion: 2988.89447498
+
+INFO:root:2016-07-29 00:00:02.058565
+INFO:root:Running collector
+INFO:root:Time to completion: 3546.15755105
+
+INFO:root:2016-07-29 12:00:01.139290
+INFO:root:Running collector
+INFO:root:Time to completion: 2791.62292194
+
+INFO:root:2016-07-30 00:00:01.050315
+INFO:root:Running collector
+INFO:root:Time to completion: 3408.87880087
+
+INFO:root:2016-07-30 12:00:01.737778
+INFO:root:Running collector
+INFO:root:Time to completion: 2926.13313603
+
+INFO:root:2016-07-31 00:00:01.132983
+INFO:root:Running collector
+INFO:root:Time to completion: 2936.88253307
+
+INFO:root:2016-07-31 12:00:02.034860
+INFO:root:Running collector
+INFO:root:Time to completion: 3024.69257498
+
+INFO:root:2016-08-01 00:00:01.041294
+INFO:root:Running collector
+INFO:root:Time to completion: 2969.54073906
+
+INFO:root:2016-08-01 12:00:01.746571
+INFO:root:Running collector
+INFO:root:Time to completion: 2731.12368417
+
+INFO:root:2016-08-02 00:00:01.151404
+INFO:root:Running collector
+INFO:root:Time to completion: 3225.84152818
+
+INFO:root:2016-08-02 12:00:02.033583
+INFO:root:Running collector
+INFO:root:Time to completion: 2810.12912297
+
+INFO:root:2016-08-03 00:00:01.432586
+INFO:root:Running collector
+INFO:root:Time to completion: 5129.72950101
+
+INFO:root:2016-08-03 12:00:01.627364
+INFO:root:Running collector
+INFO:root:Time to completion: 2932.7130692
+
+INFO:root:2016-08-03 16:22:45.266745
+INFO:root:Running collector
+INFO:root:Time to completion: 59.562579155
+
+INFO:root:2016-08-03 16:52:03.717686
+INFO:root:Running collector
+INFO:root:Time to completion: 58.5394861698
+
+INFO:root:2016-08-04 00:00:01.656212
+INFO:root:Running collector

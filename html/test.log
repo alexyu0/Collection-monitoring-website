@@ -1,0 +1,8 @@
+Could not create directory '/var/www/.ssh'.
+Failed to add the host to the list of known hosts (/var/www/html/.ssh/known_hosts).
+Load key "/var/www/html/alexyu0": Permission denied
+Permission denied (publickey).
+Could not create directory '/var/www/.ssh'.
+Failed to add the host to the list of known hosts (/var/www/html/.ssh/known_hosts).
+Load key "/var/www/html/alexyu0": Permission denied
+Permission denied (publickey).

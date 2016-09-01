@@ -21,37 +21,13 @@
                 yLabel = "Sources";
                 xLabel = "% of URLs";
             }
-            var result = "failed";
 
-            $(".inner > h1").fadeOut();
-            $(".dataLink").fadeOut(function() {
-                $("#loadText").fadeIn(function() {
-                    $.ajax({
-                        type: 'POST',
-                        url: $SCRIPT_ROOT + "/overall_data",
-                        data: JSON.stringify({toGet:send}),
-                        contentType: 'application/json',
-                        dataType: "json",
-                        async: false,
-                        success: function(data) {
-                            res = data.result;
-                            console.log(res);
-                            resDict = res[0];
-                            resList = res[1];
-                            $("#dataRes h1").html(link);
-                            $("#dataRes").fadeIn();
-                            $("#resList").fadeIn();
-                            $("#dataVis").fadeIn();
-                            graphResults(resDict, resList, "overall", 
-                                        "# of URLs", yLabel, title);
-                            $("#loadText").fadeOut();
-                        },
-                        error: function(ts) {
-                            alert(ts.responseText);
-                        }
-                    });
-                });
-            });
+            window.sessionStorage.setItem("oName", send);
+            window.sessionStorage.setItem("link", link);
+            window.sessionStorage.setItem("title", title);
+            window.sessionStorage.setItem("yLabel", yLabel);
+            window.sessionStorage.setItem("xLabel", xLabel);
+            document.location.href = "/collector/over_res";
         });
     });
 

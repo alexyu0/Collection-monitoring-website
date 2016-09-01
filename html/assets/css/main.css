@@ -17,6 +17,11 @@
 		vertical-align: baseline;
 	}
 
+	table, tbody, thead, tfoot, tr, th, td {
+		vertical-align: middle;
+		text-align: center;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1610,7 +1615,7 @@
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		overflow: hidden;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -3732,13 +3737,13 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			#sidebar {
 				display: none;
 			}
 
-		}
+		}*/
 
 /* Intro */
 	#intro {

@@ -173,7 +173,6 @@ function graphResults(data, resList, use, xAxisLabel, yAxisLabel, title) {
         .attr("font-family", "sans-serif")
         .attr("font-size", "0.8em")
         .attr("fill", "white")
-        .attr("height", "auto")
         .attr("width", "auto")
         .text(function(d) {
             if (typeof(d) == "number") {
@@ -192,9 +191,8 @@ function graphResults(data, resList, use, xAxisLabel, yAxisLabel, title) {
         .attr("x", width)
         .attr("y", function() {
             var tickHeight = parseInt(d3.select(".tick text")
-                                        .style("height"),10);
-            console.log(tickHeight);
-            return height + (tickHeight * 2.75);
+                                        .style("line-height"),10);
+            return height + (tickHeight * 2);
         })
         .attr("fill", "rgba(255,255,255,0.7)")
         .attr("font-size", "1em")
@@ -205,18 +203,29 @@ function graphResults(data, resList, use, xAxisLabel, yAxisLabel, title) {
         .attr("text-anchor", "end")
         .attr("x", 0)
         .attr("y", function() {
-            var max = 0;
+            var max1 = 0; var max2 = 0;
             $(".tick text").each(function() {
-                if (this.clientWidth > max) {
-                    max = this.clientWidth;
+                console.log(this.clientWidth);
+                console.log(this.getBBox().width);
+                console.log("next");
+                if (this.getBBox().width > max1) {
+                    max1 = this.getBBox().width;
+                    max2 = this.clientWidth;
                 }
             })
-            return -max*0.9;
+            var max = (max1 * 1.75 + max2 * 0.25) / 2;
+            console.log(max);
+            if (use == "overall") {
+                return -max;
+            } else {
+                return -max * 0.8;
+            }
         })
         .attr("fill", "rgba(255,255,255,0.7)")
         .attr("font-size", "1em")
         .attr("transform", "rotate(-90)")
         .text(yAxisLabel);
+        
 }
 
 function makeTable(dataDict,resList,selectData,colKey,colName) {
@@ -283,9 +292,14 @@ function makeTable(dataDict,resList,selectData,colKey,colName) {
         .attr("rowName", function(d) { return d.Country; })
         .attr("chosen", false)
         .on("click", function(d) {
+            console.log(d);
             $("#dataSel").fadeOut();
             $("#dataSel").html("");
             $("#dataSel").fadeIn();
+            $("#dataTable tr").each(function() {
+                $(this).attr("chosen",false)
+            });
+            $(this).attr("chosen", true)
             var selectRow; var title;
             if (selectData[d.Country] == null) {
                 selectRow = selectData[d.Source];

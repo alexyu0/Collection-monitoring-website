@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+    Hyperspace by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>CyLab Censorship Project</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type=text/javascript>
+            $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        </script>
+        <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/overall.css" />
+        <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Sidebar -->
+            <section id="sidebar">
+                <div class="inner">
+                    <nav>
+                        <ul>
+                            <li><a href="/collector/" id = "mainD">
+                                Home
+                            </a></li>
+                            <li><a href="/collector/over" id = "overallD">
+                                Overall Data
+                            </a></li>
+                            <li><a href="/collector/coun" id = "countryD">
+                                Data by Location
+                            </a></li>
+                            <li><a href="/collector/sour" id = "urlD">
+                                Data by URL Source
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Intro -->
+                    <section id="intro" class="wrapper style1 fullscreen fade-up">
+                        <div class="inner">
+                            <div id = "dataRes">
+                                <h1></h1>
+                                <ul id="resList">
+                                </ul>
+                                <div id = "dataVis"></div>
+                            </div>
+                        </div>
+                        <div id="loadText">
+                            <h1>Please wait as the data loads...</h1>
+                        </div>
+                    </section>
+
+        <!-- Scripts -->
+            <script src="/assets/js/jquery.min.js"></script>
+            <script src="/assets/js/d3.v3.min.js"></script>
+            <script src="/assets/js/jquery.scrollex.min.js"></script>
+            <script src="/assets/js/jquery.scrolly.min.js"></script>
+            <script src="/assets/js/skel.min.js"></script>
+            <script src="/assets/js/util.js"></script>
+            <script src="/assets/js/helpers.js"></script>
+            <script src="/assets/js/overall_res.js"></script>
+            <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/assets/js/main.js"></script>
+
+    </body>
+</html>

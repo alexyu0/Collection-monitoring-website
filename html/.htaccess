@@ -1,7 +1,0 @@
-Options -Indexes
-
-RewriteEngine On
-RewriteOptions IgnoreInherit
-RewriteOptions AllowNoSlash
-RewriteOptions AllowAnyURI
-RewriteRule ^collector(.*)$ wsgi/collector.wsgi$1
